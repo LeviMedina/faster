@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 10vh;
+  
+
+}
+
+#logo {
+ 
+    margin-left: 5vw;
+
+}
+
+#botao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+
+}
+
+#botao button {
+    margin-right: 5vw;
+    width: 5vw;
+    height: 5vh;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 102, 0);
+    border-style: none;
+    align-items: center;
+   
+   
+}
+
+#frases {
+    display: flex;
+    justify-content: space-between;
+align-items: center;
+    width: 30vw;
+    height: 10vh;
+}
+
+#frases a {
+    color: rgb(109, 107, 105);
+}
+
+#Home {
+    display: flex;
+    background-color: rgb(255, 106, 0);
+    height: 10vh;
+    align-items: center;
+    width: 5vw;
+    justify-content: center;
+}
+#Home a{
+    color: white;
+}
+#hero {
+    position: relative;
+    height: 85vh;
+
+    overflow: hidden;
+}
+
+.hero-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(./maxresdefault.jpg);
+    filter: brightness(0.6); 
+    z-index: 1;
+}
+
+#oiSom {
+    position: relative;
+    z-index: 2; 
+    color: rgb(255, 253, 251);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    
+}
+#h1{
+    color: white;
+    font-size: 40px;
+}
+
+#h3{
+    color: rgb(255, 106, 0) ;
+    font-size: 30px;
+}
+#botao{
+    color: white;
+    display: flex;
+    background-color:  rgb(255, 106, 0);;
+    border-style: none;
+    height: 6vh;
+    width: 10vw ;
+}
+#barra{
+    display: flex;
+    margin-top: 3vh
+}
+#corpo{
+   display: flex;
+}
+
