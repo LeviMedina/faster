@@ -1,117 +1,325 @@
-* {
-    margin: 0;
-    text-decoration: none;
-    box-sizing: border-box;
-    padding: 0;
-}
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-#header {
-    display: flex;
-    justify-content: space-between;
-    width: 100vw;
-    height: 10vh;
-  
+    * {
+        margin: 0;
+        text-decoration: none;
+        box-sizing: border-box;
+        padding: 0;
+        font-family: "Roboto", sans-serif;
+    }
 
-}
+    #header {
+        display: flex;
+        justify-content: space-between;
+        width: 100vw;
+        height: 10vh;
 
-#logo {
- 
-    margin-left: 5vw;
 
-}
+    }
 
-#botao{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-   
+    #logo {
 
-}
+        margin-left: 5vw;
 
-#botao button {
-    margin-right: 5vw;
-    width: 5vw;
-    height: 5vh;
-    color: rgb(255, 255, 255);
-    background-color: rgb(255, 102, 0);
-    border-style: none;
-    align-items: center;
-   
-   
-}
+    }
 
-#frases {
-    display: flex;
-    justify-content: space-between;
-align-items: center;
-    width: 30vw;
-    height: 10vh;
-}
+    #botao {
+        display: flex;
+        align-items: center;
+        justify-content: center;
 
-#frases a {
-    color: rgb(109, 107, 105);
-}
 
-#Home {
-    display: flex;
-    background-color: rgb(255, 106, 0);
-    height: 10vh;
-    align-items: center;
-    width: 5vw;
-    justify-content: center;
-}
-#Home a{
-    color: white;
-}
-#hero {
-    position: relative;
-    height: 85vh;
+    }
 
-    overflow: hidden;
-}
+    #botao button {
+        margin-right: 5vw;
+        width: 10vw;
+        height: 6vh;
+        color: rgb(255, 255, 255);
+        background-color: rgb(255, 102, 0);
+        border-style: none;
+        align-items: center;
+    }
 
-.hero-img {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-image: url(./maxresdefault.jpg);
-    filter: brightness(0.6); 
-    z-index: 1;
-}
+    #frases {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 30vw;
+        height: 10vh;
+    }
 
-#oiSom {
-    position: relative;
-    z-index: 2; 
-    color: rgb(255, 253, 251);
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    height: 100%;
-    
-}
-#h1{
-    color: white;
-    font-size: 40px;
-}
+    #frases a {
+        color: rgb(109, 107, 105);
+    }
 
-#h3{
-    color: rgb(255, 106, 0) ;
-    font-size: 30px;
-}
-#botao{
-    color: white;
-    display: flex;
-    background-color:  rgb(255, 106, 0);;
-    border-style: none;
-    height: 6vh;
-    width: 10vw ;
-}
-#barra{
-    display: flex;
-    margin-top: 3vh
-}
-#corpo{
-   display: flex;
-}
+    #Home {
+        display: flex;
+        background-color: rgb(255, 106, 0);
+        height: 10vh;
+        align-items: center;
+        width: 5vw;
+        justify-content: center;
+    }
 
+    #Home a {
+        color: white;
+    }
+
+    #hero {
+        position: relative;
+        height: 85vh;
+
+        overflow: hidden;
+    }
+
+    .hero-img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-image: url(./maxresdefault.jpg);
+        filter: brightness(0.6);
+        z-index: 1;
+    }
+
+    #oiSom {
+        position: relative;
+        z-index: 2;
+        color: rgb(255, 253, 251);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+
+    }
+
+    #h1 {
+        color: white;
+        font-size: 40px;
+    }
+
+    #h3 {
+        color: rgb(255, 106, 0);
+        font-size: 30px;
+    }
+
+    #track {
+        color: white;
+        display: flex;
+        background-color: rgb(255, 106, 0);
+        border-style: none;
+        height: 6vh;
+        width: 10vw;
+        align-items: center;
+    }
+
+    #barra {
+        display: flex;
+        margin-top: 3vh
+    }
+
+    #corpo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #f2f2f4;
+        width: 50vw;
+        height: 40vh;
+        justify-content: center;
+        text-align: start;
+    }
+
+    #Get {
+        color: rgb(255, 106, 0);
+        ;
+    }
+
+    #login {
+        background-color: rgb(255, 106, 0);
+        width: 30vw;
+        height: 40vh;
+        margin-right: 10vw;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        gap: 1vw;
+        
+
+    }
+
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+    * {
+        margin: 0;
+        box-sizing: border-box;
+        padding: 0;
+        font-family: "Poppins", sans-serif;
+    }
+
+    #cards-title {
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #cards-title h3 {
+        font-size: 14px;
+        color: orangered;
+        font-weight: bolder;
+    }
+
+    #latest-blog {
+        display: flex;
+        justify-content: center;
+        gap: 3vw;
+        height: 150vh;
+        margin-top: 5vh;
+
+    }
+
+    .container-image img {
+        width: 33vw;
+        height: 50vh;
+    }
+
+    .card {
+        width: 33vw;
+        height: 100vh;
+        background-color: #f2f2f4;
+    }
+
+    .profile-container {
+        display: flex;
+        align-items: center;
+        margin-left: 1vw;
+    }
+
+    .profile-container img {
+        width: 4vw;
+        height: 8vh;
+        border-radius: 50%;
+        margin-right: 1vw;
+    }
+
+    .contact-profile-container {
+        display: flex;
+
+    }
+
+    .web-design {
+        display: flex;
+        align-items: center;
+        margin-left: 2vw;
+    }
+
+    .web-design i {
+        margin-right: 1vw;
+    }
+
+    .fa-solid {
+        color: orangered;
+    }
+
+    .calendar {
+        background-color: orangered;
+        width: 5vw;
+        height: 10vh;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        border-radius: 50%;
+        position: absolute;
+        /* top: 10vh; */
+        left: 40vw;
+        margin-top: -5vh;
+    }
+
+    .calendar1 {
+        background-color: orangered;
+        width: 5vw;
+        height: 10vh;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        border-radius: 50%;
+        position: absolute;
+        /* top: 10vh; */
+        left: 76vw;
+        margin-top: -5vh;
+    }
+
+    .calendar span {
+        color: #302129;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .calendar p {
+        margin-top: -10px;
+        color: white;
+    }
+
+    .calendar1 span {
+        color: #302129;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .calendar1 p {
+        margin-top: -10px;
+        color: white;
+    }
+
+    .web-design i {
+        color: orangered;
+    }
+
+    .text-container h1 {
+        margin-left: 1.5vw;
+        font-size: 20px;
+        margin-top: 1vw;
+    }
+
+    .text-container p {
+        text-align: justify;
+        margin-left: 1.5vw;
+        font-size: 12px;
+        margin-right: 1.5vw;
+        margin-bottom: 3vh;
+    }
+
+    .text-container a {
+        margin-left: 1.5vw;
+        color: orangered;
+    }
+
+    #corpao {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10vh;
+        margin-bottom: 10vh;
+        width: 100vw;
+        background-color: #f2f2f4;
+    }
+    #botao{
+        background-color: black;
+        color: white;
+        border-style: none;
+        width: 20vw;
+        height: 5vh;
+    }
+    #login input{
+width: 20vw;
+        height: 5vh;
+    }
+    #login select{
+        width: 20vw;
+        height: 5vh;
+    }
